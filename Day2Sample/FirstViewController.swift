@@ -114,5 +114,22 @@ class FirstViewController: UIViewController {
         }))
         
         self.present(alert, animated: true)
+        
+        
+        
+        
+    }
+    
+    @IBAction func goToNextScreen(_ sender: UIButton) {
+        
+        var sb = UIStoryboard(name: "Main", bundle: nil)
+        
+        var lineVC = sb.instantiateViewController(withIdentifier: "LineVC") as!
+        
+        LineViewController
+        
+        self.present(lineVC,animated: true)
+        
+        
     }
 }

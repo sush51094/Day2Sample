@@ -16,6 +16,8 @@
 		9BC814A7222F3C8800B7A77F /* Day2SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC814A6222F3C8800B7A77F /* Day2SampleUITests.swift */; };
 		9BC814B5222F4FCA00B7A77F /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC814B4222F4FCA00B7A77F /* ImageViewController.swift */; };
 		9BC814B7222F51C100B7A77F /* gorilla.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC814B6222F51C100B7A77F /* gorilla.png */; };
+		9BC814B9222F603500B7A77F /* LineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC814B8222F603500B7A77F /* LineViewController.swift */; };
+		9BC814BB222F624400B7A77F /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC814BA222F624400B7A77F /* lion.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9BC814A8222F3C8800B7A77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BC814B4222F4FCA00B7A77F /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		9BC814B6222F51C100B7A77F /* gorilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorilla.png; sourceTree = "<group>"; };
+		9BC814B8222F603500B7A77F /* LineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineViewController.swift; sourceTree = "<group>"; };
+		9BC814BA222F624400B7A77F /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +111,10 @@
 				9BC8148D222F3C8800B7A77F /* Assets.xcassets */,
 				9BC8148F222F3C8800B7A77F /* LaunchScreen.storyboard */,
 				9BC814B6222F51C100B7A77F /* gorilla.png */,
+				9BC814BA222F624400B7A77F /* lion.png */,
 				9BC81492222F3C8800B7A77F /* Info.plist */,
 				9BC814B4222F4FCA00B7A77F /* ImageViewController.swift */,
+				9BC814B8222F603500B7A77F /* LineViewController.swift */,
 			);
 			path = Day2Sample;
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BC814B7222F51C100B7A77F /* gorilla.png in Resources */,
+				9BC814BB222F624400B7A77F /* lion.png in Resources */,
 				9BC81491222F3C8800B7A77F /* LaunchScreen.storyboard in Resources */,
 				9BC8148E222F3C8800B7A77F /* Assets.xcassets in Resources */,
 				9BC8148C222F3C8700B7A77F /* Main.storyboard in Resources */,
@@ -265,6 +272,7 @@
 			files = (
 				9BC81489222F3C8700B7A77F /* FirstViewController.swift in Sources */,
 				9BC814B5222F4FCA00B7A77F /* ImageViewController.swift in Sources */,
+				9BC814B9222F603500B7A77F /* LineViewController.swift in Sources */,
 				9BC81487222F3C8700B7A77F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
