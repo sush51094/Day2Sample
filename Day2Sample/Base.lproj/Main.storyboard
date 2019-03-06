@@ -34,6 +34,14 @@
                                     <action selector="btnshowAlertClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3B6-sn-g1I"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rx-B4-XPB">
+                                <rect key="frame" x="115" y="385" width="119" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="go to next screen"/>
+                                <connections>
+                                    <segue destination="1YP-ML-O2X" kind="show" id="kkT-OV-gRm"/>
+                                </connections>
+                            </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oJk-yQ-M5a">
                                 <rect key="frame" x="164" y="147" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -55,5 +63,29 @@
             </objects>
             <point key="canvasLocation" x="132" y="133.5832083958021"/>
         </scene>
+        <!--Image View Controller-->
+        <scene sceneID="Sfx-1a-hut">
+            <objects>
+                <viewController id="1YP-ML-O2X" customClass="ImageViewController" customModule="Day2Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B6S-GH-SJX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gorilla.png" translatesAutoresizingMaskIntoConstraints="NO" id="FOD-uG-RpZ">
+                                <rect key="frame" x="67" y="189" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rOG-jJ-s2B"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZOC-Ju-RKL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="778" y="64"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="gorilla.png" width="256" height="256"/>
+    </resources>
 </document>
